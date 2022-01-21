@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Markdown语法及示例</title>
+    <url>/2022/01/19/Markdown%E8%AF%AD%E6%B3%95%E5%8F%8A%E7%A4%BA%E4%BE%8B/</url>
+    <content><![CDATA[<h1 id="Markdown语法及示例"><a href="#Markdown语法及示例" class="headerlink" title="Markdown语法及示例"></a>Markdown语法及示例</h1><h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```git</span><br></pre></td></tr></table></figure>
+
+<h2 id="加粗，删除线，斜体"><a href="#加粗，删除线，斜体" class="headerlink" title="加粗，删除线，斜体"></a>加粗，删除线，斜体</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**加粗**</span><br></pre></td></tr></table></figure>
+
+<p><strong>加粗</strong></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">~~删除线~~</span><br></pre></td></tr></table></figure>
+
+<p><del>删除线</del></p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体*</span><br></pre></td></tr></table></figure>
+
+<p><em>斜体</em></p>
+<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;人生如梦 一级引用</span><br><span class="line">&gt;&gt;it&#x27;s with a life,as with a dream 二级引用</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>人生如梦 一级引用</p>
+<blockquote>
+<p>it’s with a life,as with a dream 二级引用</p>
+</blockquote>
+</blockquote>
+<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">***</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+
+<hr>
+<hr>
+<h2 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片名称](图片地址)</span><br></pre></td></tr></table></figure>
+
+<p><img src="https://pic.imgdb.cn/item/61e829af2ab3f51d91770531.jpg" alt="我永远喜欢安洁莉娜"></p>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[名称](链接)</span><br></pre></td></tr></table></figure>
+
+<p>[my github](<a href="https://github.com/Lynx799/Lynx799.github.io">GitHub - Lynx799/Lynx799.github.io</a>)</p>
+<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">无序列表</span><br><span class="line">- 目录一</span><br><span class="line">- 目录二</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>目录一</li>
+<li>目录二</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">有序列表</span><br><span class="line">|项目一|项目二|项目三|</span><br><span class="line">|----|----|----|</span><br><span class="line">|A|B|C|</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th>项目一</th>
+<th>项目二</th>
+<th>项目三</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>A</td>
+<td>B</td>
+<td>C</td>
+</tr>
+</tbody></table>
+]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/18/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>test_my_site</title>
+    <url>/2022/01/18/test-my-site/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+</search>
